@@ -108,6 +108,13 @@ fv.addFeatures(
 
 If you have any problem or suggestion please open an issue.
 
+## Developers
+
+Build with: tsc.
+
+To test: follow the "getting started section", but instead of installing the package through npm, download the feature-viewer-typescript-mobidb project from github. Create an angular project and in node modules add a symlink to the feature-viewer-typescript-mobidb folder (ln -s ../../<local-folder> <name-project>).
+
+
 ## License
 
 This repo is based on [calipho-sib/feature-viewer](https://github.com/calipho-sib/feature-viewer), Copyright (c) 2015, SIB Swiss 
