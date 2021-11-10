@@ -445,7 +445,7 @@ class Tool extends Calculate {
                         }
                     });
             };
-            
+
             return tooltip;
         };
 

@@ -377,7 +377,7 @@ class FillSVG extends ComputingFunctions {
                             .attr("height", "100%")
                             .attr("y",-6)
                             .html(content)
-                            
+
                         if (bt.type !== "percentage") {
                             gButton.call(this.commons.d3helper.genericTooltip(bt));
                         }
