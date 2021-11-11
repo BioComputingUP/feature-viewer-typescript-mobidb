@@ -1,6 +1,6 @@
 {
   "name": "feature-viewer-typescript-mobidb",
-  "version": "2.2.1",
+  "version": "2.2.3",
   "description": "",
   "main": "index.js",
   "repository": {
@@ -12,7 +12,9 @@
     "scss": "tcm -p assets/*.scss -c",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "test_npm":  "npm pack && mv feature-viewer-typescript-mobidb-2.2.1.tgz ../ && cd .. && tar -xzvf feature-viewer-typescript-mobidb-2.2.1.tgz && cd feature-viewer-typescript-mobidb"
+
   },
   "files": [
     "lib/**/*",
