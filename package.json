@@ -1,6 +1,6 @@
 {
   "name": "feature-viewer-typescript-mobidb",
-  "version": "2.2.3",
+  "version": "2.2.6",
   "description": "",
   "main": "index.js",
   "repository": {
@@ -13,8 +13,7 @@
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
-    "test_npm":  "npm pack && mv feature-viewer-typescript-mobidb-2.2.1.tgz ../ && cd .. && tar -xzvf feature-viewer-typescript-mobidb-2.2.1.tgz && cd feature-viewer-typescript-mobidb"
-
+    "test_npm": "npm pack && mv feature-viewer-typescript-mobidb-2.2.1.tgz ../ && cd .. && tar -xzvf feature-viewer-typescript-mobidb-2.2.1.tgz && cd feature-viewer-typescript-mobidb"
   },
   "files": [
     "lib/**/*",
@@ -33,6 +32,7 @@
     "d3-scale": "2.2.2",
     "d3-selection": "1.4.0",
     "d3-shape": "1.3.5",
+    "d3-transition": "3.0.1",
     "html-to-image": "^0.1.1",
     "npx": "^10.2.2",
     "typed-css-modules": "^0.6.4",
