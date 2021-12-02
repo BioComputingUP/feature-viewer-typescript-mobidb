@@ -1,7 +1,6 @@
 import ComputingFunctions from "./helper";
 import Calculate from "./calculate";
 import * as d3 from './custom-d3';
-import 'd3-transition';
 
 class PreComputing {
 
